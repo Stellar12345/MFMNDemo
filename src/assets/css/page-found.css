@@ -1,0 +1,164 @@
+.mfmn-error-page{
+  margin: 50px 0;
+  display: block;
+  background: url("../img/404-banner.jpg") no-repeat;
+  background-position: top center;
+
+}
+.not-found-bg{
+  background-color: #fff;
+}
+
+.mfmn-error-rows{
+  margin: 0px;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  min-height: 650px;
+}
+.error-title-heading{
+  font-weight: 600;
+  font-size: 94px;
+  line-height: 40px;
+  color: #212121;
+  margin: 30px 0;
+  display: block;
+}
+.top-heading h4{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 18x;
+  text-align: center;
+  position: relative;
+}
+.error-btn{
+  clear: both;
+  display: block;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.error-btn .more-btn{
+  border-width: 0;
+border-radius: 8px;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+padding: 14px 22px;
+color: #475443;
+text-decoration: none;
+clear: both;
+float: none;
+margin-top: 5px;
+text-transform: capitalize;
+text-align: center;
+background-color: #F1B95E;
+color: #212121;
+}
+.error-btn .more-btn:hover{
+  color: #fff;
+}
+
+
+.not-found-img{
+  display: block;
+}
+.not-found-img img{
+  max-width: 100%;
+}
+.not-found-bg .inner-page-footer{
+  margin-top: -30px;
+}
+
+
+/** thank you page**/
+.thank-you-bg{
+  background-color:#fff;
+}
+.thank-you-bg .inner-page-footer{
+  margin-top: 0;
+}
+
+.thank-you-page{
+  position: relative;
+  display: block;
+  /* background: url(../img/thankyou.jpg) no-repeat;
+  background-position: top center;
+  background-size: cover; */
+ 
+}
+
+.mfmn-thnak-ro{
+  margin: 0px 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 650px;
+  
+}
+
+.thank-you-page-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:60px 0;
+}
+
+.thank-you-title-head{
+  color: #62aa41;
+  display: block;
+  font-size: 54px;
+  line-height: 26px;
+  margin: 50px 0 0;
+  position: relative;
+  /* font-weight: 600;
+  font-size: 54px;
+  line-height: 26px;
+  color:  #F1B95E;
+  margin: 50px 0 0;
+  display: block;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.72);
+  position: relative; */
+}
+
+.thank-you-note-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #666666;
+  margin: 30px 0 0;
+  clear: both;
+}
+.thank-btn{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.thankyou-banner{ display: block;}
+.thankyou-banner img{ max-width: 100%;}
+
+
+
+/****/
+
+
+@media screen and (max-width:767px) {
+  .mfmn-error-page{
+    background-size: contain;
+    background-position: center;
+  }
+  .mfmn-error-rows{
+    min-height: 450px;
+
+  }
+}

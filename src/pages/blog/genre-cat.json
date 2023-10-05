@@ -1,0 +1,18 @@
+[
+  {
+    "value": "",
+    "label": "All Genre"
+  },
+  {
+    "value": "wind",
+    "label": "Wind"
+  },
+  {
+    "value": "solar",
+    "label": "Solar"
+  },
+  {
+    "value": "carbon",
+    "label": "Carbon"
+  }
+]

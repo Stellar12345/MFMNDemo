@@ -1,0 +1,19 @@
+.advancing-sustainability {
+    background: #fff;
+  }
+  .advance-sustainable-sec .left-title-content .restoration-text{font-size: 32px;font-weight: 300;color: #212529;line-height: 50px;margin: 50px 0 22px;letter-spacing: 0.3px; 
+  }
+  .advance-sustainable-sec .left-text-content p {font-size: 1rem;line-height: 32px;font-weight: 400;color: #666666;}
+  .advance-sustainable-sec .living-text {font-size: 36px;font-weight: 300;line-height: 60px;color: #947D65;margin-top: 14vw;padding-left: 7vw; }
+  .advance-sustainable-sec{ margin-bottom: 80px;}  
+
+  @media (max-width:768px) {
+    .advance-sustainable-sec .left-title-content .restoration-text {
+      font-size: 27px;
+      margin-top: 50px;
+      margin-bottom: 29px;
+    }
+  } 
+  @media screen and (min-width:1200px) {
+    .ad-sust-imge-part{ margin-bottom: 5rem;}
+  }

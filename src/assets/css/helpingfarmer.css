@@ -1,0 +1,220 @@
+.helpingfarmer-section {
+  background: #fff;
+}
+  .mtb-50{margin-top: 50px;margin-bottom: 6vw;}
+  .associate-mb{margin-bottom: 6vw;}
+  /* .logo-align{width:121px;} */
+  /*Inner Banner*/
+  .generalInnerBanner{width:100%;display: flex;height:374px;align-items: center;}
+  .generalInnerBanner h1{float:left;font-size:32px;color: #fff;;position: relative;}
+  .generalInnerBanner h1:before{content:"";width: 48px;;height:3px;background-color: #deb887;position: absolute;top:-10px;}
+  .helpingfarmer-banner{background-size: cover;display: flex;flex-direction: column;justify-content: center;} 
+
+
+  .helping-farmer-sec .text-content-left h2{font-size: 32px;font-weight: 300;margin-top:50px; margin-bottom: 29px;line-height: 50px;}
+  .helping-farmer-sec .text-content-left p{font-size: 16px;line-height: 32px;}
+  
+  .image-left{position: relative;}
+  .joinus-section h3{font-size: 32px;margin-bottom: 44px;margin-top: 40px; font-weight: 300;}
+  .joinus-section h3 strong{    font-weight: 600;  }
+  .helping-farmer-sec .image-left:before{content: "";position: absolute; height: 415px; width: 43vw; border: 1px solid silver;right: 8vw;top: 4vw;border-radius: 14px;z-index: 0;}
+  .image-left img{border-radius: 8px;position: relative;}
+  /*.corporate-content-right{padding-left: 25px;}*/
+  .joinus-section p{font-size: 16px;font-weight: 400;line-height: 32px;}
+  
+  .helpingfarmer-section h2{font-size: 32px;margin-top: 50px; font-weight: 300;}
+  .helpingfarmer-section h2 strong{ font-weight: 600;}
+  .associateimg{width:100%;height:306px;border: 1px solid #ACB9C6;border-radius: 8px;display:flex;justify-content: center;align-items: center;}
+  .associateimg img{position: absolute;width: 148px;height: 170px;}
+  .right-part-top-img{ margin-top: 85px;}
+  .right-part-top-img img{ max-width: 100%; z-index: 1; position: relative;}
+  .right-img-relative-part{ position: relative; overflow: hidden;}
+  .right-part-top-img img{ max-width: 100%; position: relative; z-index: 1; border-radius: 8px; }
+  .right-part-inner-image::after {
+    content: " ";
+    width: 50%;
+    border: 1px solid #959F91;
+    border-radius: 16px;
+    position: absolute;
+    z-index: 0;
+    /* height: 440px;
+    top: 37px;
+    right: -174px;; */
+  }
+  .howwework-section-mb{ margin-bottom: 80px;}
+  @media screen and (min-width:640px) {
+    .right-part-inner-image::after{
+      height: 34.65vw;
+      top: 2vw;
+      right: -12.08vw;
+    }
+    
+  }
+
+  @media screen and (min-width:1200px) {
+.right-part-top-img img{ float: right; text-align: right;}
+
+  }
+
+  @media screen and (min-width:1500px) {
+    .right-part-inner-image::after {
+      height: 499px;
+      top: 40px;
+      right: -174px;
+    }
+  }
+ 
+
+
+  @media (max-width:768px) {
+    .helpingfarmer-section .helping-farmer-sec .joinus-section .image-left:before{
+      content: "";
+      position: absolute;
+      /* height: 44.01vw;
+      width: 80%;
+      border: 1px solid silver;
+      left: -4.297vw; */
+      border-radius: 15px;
+      z-index: 0;
+      height: 39.714vw;
+      width: 50%;
+      border: 1px solid silver;
+      right: 0;
+      top: 12vw;
+      left: -5vw;
+}
+    .joinus-section .farmer-content-right{font-size: 18px;margin-top: 12vw;}
+    .helping-farmer-sec .text-content-left h2{
+       font-size: 27px;
+      margin-top: 50px;
+      margin-bottom: 29px;
+    }
+    .joinus-section h3{font-size: 27px;}
+    .helpingfarmer-section h2{ font-size: 27px;  margin-top: 33px;}
+    .howwework-section-mb{ margin-bottom: 0;}
+  }
+  @media (max-width:542px) {
+    .helpingfarmer-section .helping-farmer-sec .joinus-section .image-left:before{
+     height: 101.333vw;
+      width: 80%;
+      border: 1px solid silver;
+      left: -4.267vw;
+      top: -3.200vw;
+      right: auto;
+    }
+    .helping-farmer-sec .joinus-section .image-left img{width: 370px;height: 340px;}
+    .helping-farmer-sec .joinus-section .farmer-content-right{font-size: 18px;margin-top: 16vw;}
+    .helpingfarmer-section h2{
+      font-size: 25px;
+      line-height: 40px;
+      margin-bottom: 55px;
+     
+    }
+    .joinus-section h3{ font-size: 27px;}
+  }
+  @media (max-width:992px) {
+     .helpingfarmer-section .joinus-section .image-left:before{
+      content: "";
+      position: absolute;
+      height: 44.01vw;
+      width: 80%;
+      border: 1px solid silver;
+      left: -4.297vw;
+      top: 6vw;
+      border-radius: 15px;
+      z-index: 0;
+     }
+    .joinus-section .farmer-content-right{font-size: 18px;}
+    
+    .right-part-inner-image{ position: relative;}
+    .right-part-top-img{ position: relative; margin: 44px 0;}
+    .right-part-inner-image::after {
+      height: 58.65vw;
+      top: -2vw;
+      right: 0;
+      left: -18%;
+      width: 90%;
+    }
+    .ourjourney-section  .right-part-inner-image::after {
+      height: 42.65vw;
+    }
+
+  }
+  @media (max-width:1200px) {
+    .joinus-section .image-left img{width: 430px;height: 360px;}
+    .joinus-section .image-left:before{content: "";position: absolute; height: 380px; }
+    .farmer-content-right{font-size: 18px;}
+  }
+  @media screen and (orientation:landscape)and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .right-part-inner-image::after {
+      top: 6vw;
+    }
+  }
+  @media only screen and (max-width: 844px) and (orientation: landscape) {
+    .right-part-inner-image::after {
+      top: -3vw;
+      height: 55.65vw;
+      left: -24%;
+  }
+  }
+  @media only screen and (max-width: 896px) and (orientation: landscape) {
+    .right-part-inner-image::after {
+      top: -3vw;
+      height: 53.65vw;
+      left: -24%;
+  }
+  .ourjourney-section  .right-part-inner-image::after {
+    height: 42.65vw;
+  }
+  }
+
+  @media (max-width:542px) {
+    .right-part-inner-image::after {
+      height: 74.65vw;
+      top: -4vw;
+      right: 0;
+      left: -18%;
+      width: 90%;
+    }
+    .right-part-top-img{/* margin-top: 0;*/}
+    .advance-sustainable-sec .left-text-content p{
+      margin-bottom: 3em;
+    }
+    .ourjourney-section .right-part-inner-image::after{
+      height: 74.65vw;
+    }
+  }
+
+  @media (max-width:1400px) {
+    .image-left img{width: 510px;height: 420px;}
+    .image-left:before{content: "";position: absolute; height: 420px;right:9vw; }
+  }
+
+
+
+
+
+  @media screen and (min-width:667px) and (max-width:670px){
+    .helpingfarmer-section .helping-farmer-sec .joinus-section .image-left::before {
+      content: "";
+      position: absolute;
+      height: 338px;
+      width: 81%;
+      border: 1px solid silver;
+      left: -75px;
+      top: 9vw;
+      border-radius: 15px;
+      z-index: 0;
+    }
+    .helpingfarmer-section h2{font-size: 27px;}
+    .joinus-section h3{ font-size: 27px;}
+    .associateimg img{
+      width: 130px;
+  height: 142px;
+    }
+    .right-part-inner-image::after {
+      top: -3vw;
+      height: 58.65vw;
+      left: -24%;
+  }
+  }

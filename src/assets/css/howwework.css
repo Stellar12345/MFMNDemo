@@ -1,0 +1,57 @@
+
+.howwework-section {
+  background: #ffff;
+}
+.mtb-50{margin-top: 50px;margin-bottom: 6vw;}
+/* .logo-align{width:121px;} */
+/*Inner Banner*/
+.generalInnerBanner{width:100%;display: flex;height:374px;align-items: center;}
+.generalInnerBanner h1{float:left;font-size:32px;color: #fff;;position: relative;}
+.generalInnerBanner h1:before{content:"";width: 48px;;height:3px;background-color: #deb887;position: absolute;top:-10px;}
+.how-we-work-banner{background: url("../img/howwework/how-we-work-banner.jpg") no-repeat;background-size: cover;display: flex;flex-direction: column;justify-content: center;}
+
+.howwework-section .text-content-left h2{font-size: 32px;font-weight: 300;margin-top:50px; margin-bottom: 29px;line-height: 50px;}
+.howwework-section .text-content-left p{font-size: 16px;line-height: 32px;}
+.howwework-section  h2{font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;}
+  .howwework-section  h2 strong{ font-weight: 600;}
+.howwework-section .associateimg{width:100%;height:306px;border: 1px solid #ACB9C6;border-radius: 8px;display:flex;justify-content: center;align-items: center;}
+.associateimg img{position: absolute;width: 148px;height: 170px;}
+
+
+/*.frmConnect {padding-left: 0;padding-right: 0;}*/
+.connect-content h4{margin-bottom: 2vw;}
+.connect-content h4,.connect-content h5 {  font-family: 'Poppins';  font-weight: 100;  font-size: 32px;  line-height: 50px;}
+.connect-content {background-color: #E7E9DE;}
+.contact-us-page .connect-form-sec {padding-top: 64px;}
+.InnerFormContainer label{font-size: 14px;font-weight: 500;color: #787876;margin-bottom: 10px;}
+.InnerFormContainer .form-control{padding: 10px 20px;width: 100%;outline: none;border: 1px solid #ACB9C6;border-radius: 5px;font-size: 14px;box-shadow: none;}
+.FormyellowBtn {background-color: #F0B95E;border-radius: 10px;border: 0px;font-size: 14px;font-weight: 600;width: 98px;height: 44px;display: inline-block;margin-top: 2vw;color: var(--black);margin-bottom: 40px;}
+.inr::placeholder{font-weight: 800;}
+
+/* .howwework-section .inner-page-footer{margin-top: 0;} */
+
+
+@media screen and (max-width:542px) {
+  .associateimg{max-width:75%;margin-left: 10%;}
+  /* .connect-content {margin-left: 30px;margin-right: 30px;} */
+  .InnerFormContainer.FormyellowBtn {margin-top: 6vw !important;}
+}
+@media  (max-width: 768px) {
+  .generalInnerBanner{width: 100%;height: 226px;align-items: center;}
+  /* .generalInnerBanner h1{margin-left: 28px;} */
+  .howwework-section .text-content-left h2{ font-size: 27px;margin-top: 60px;margin-bottom: 29px;}
+  .howwework-section  h2{font-size: 25px;line-height: 40px;}
+  .associateimg{margin-bottom: 25px !important;height: 270px !important;}
+  .associateimg img{width: 130px;height: 142px;}
+  .connect-form-sec .connect-content h4,
+  .connect-content h5 {font-size: 25px;line-height: 40px;margin-right: 0;}
+  .InnerFormContainer .mt-5{margin-top:5vw !important;}
+}
+@media (max-width:1020px){
+  .connect-form-sec .connect-content h4, .connect-content h5{margin-right: 0;}
+  .connect-content h5{font-size: 28px;}
+.FormyellowBtn {margin-top: 4vw;}
+
+}

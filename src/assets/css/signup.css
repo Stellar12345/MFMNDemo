@@ -1,0 +1,178 @@
+
+
+.mfmn-forms-page{ 
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  display: block;
+  margin: 111px 0;
+}
+
+
+.top-heading{
+  margin: 0 0 42px;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+.top-heading h2{
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #212121;
+  margin: 0;
+}
+.top-heading h2 strong{
+  font-weight: 600;
+}
+.info-forms-filed{
+  background: #E6E9DD;
+  border-radius: 15px;
+  padding:53px;
+  margin: 0 auto 0;
+}
+
+.info-forms-itmes .form-label{
+  color: #666666;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  margin: 0 0 5px;
+  text-transform: capitalize;
+}
+.info-forms-itmes .form-check-label{
+  color:#212121;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.info-forms-itmes-list .form-check-input{
+  width: 19px;
+  height: 19px;
+  border-radius: 4px;
+  border: 1px solid #ACB9C6;
+}
+.info-forms-itmes-list .form-check-input:checked{
+  background-color: #475443;
+  border: 1px solid rgba(71, 84, 67, 0.5);
+  color: #475443;
+  box-shadow:none
+}
+.info-forms-itmes-list .form-check-input:focus{
+  box-shadow:none
+}
+.info-forms-itmes .form-control{
+  border: 1px solid #ACB9C6;
+  border-radius: 4px;
+  height: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+ 
+}
+.info-forms-itmes-list{
+  margin: 0 0 10px;
+}
+.btn-mfmn-y{
+  font-family: 'Poppins';
+  padding: 14px 20px;
+  background: #F1B95E;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+  border-color:#F1B95E;
+  margin: 18px 0 0;
+}
+ .btn-mfmn-y:active,
+ .btn-mfmn-y:focus,
+ .btn-mfmn-y:hover{
+  background:#DE9D33!important;
+  border-color:#DE9D33!important;
+  color: #212121!important;
+}
+.info-forms-itmes-list .text-select{
+  -webkit-appearance: none;
+  -moz-appearance: window;
+  padding: 0 13px;
+  background-image: url("../img/select-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 99% center ;
+  background-size: auto;
+  font-family: 'Poppins';
+}
+.forget-pass-info{ 
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.forget-pass{
+  color: #1C2630;
+  font-family: 'Poppins';
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.forget-pass:hover{
+  color: #DE9D33;
+}
+
+.btn-mfmn-outline{
+  border: 1px solid #475443;
+  border-radius: 8px;
+  color: #212121;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 14px 20px;
+  background-color: transparent;
+  text-decoration: none;
+  margin-top:0px;
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn-mfmn-outline:hover{
+  background: #DEE3CE;
+  color: #475443;
+  border: 1px solid rgba(71, 84, 67, 0.5);
+}
+.login-itmes-list{
+  position: relative;
+  padding: 0 12px;
+  margin-top: 30px;
+}
+
+.login-itmes-list .btn-mfmn-y{
+  margin: 0;
+}
+
+
+@media(min-width: 768px) and (max-width: 1024px) {
+  .info-forms-filed{ padding: 25px;}
+}
+
+@media screen and (max-width:767px) {
+.info-forms-full{ padding: 0 12px;}
+.info-forms-filed{ padding:25px;}
+}
+@media screen and (max-width:575px) {
+
+  .forget-pass-info{
+    margin-top: 20px;
+  }
+
+}
+.success-message.text-green {
+  color: green;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+}

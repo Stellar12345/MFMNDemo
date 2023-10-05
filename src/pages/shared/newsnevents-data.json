@@ -1,0 +1,74 @@
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "date": "02 Feb 2023",
+    "image": "newsnevents-img1.png",
+    "title": "Lake Rajuvenation Program.Sample dummy text for the new title",
+    "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."
+  },
+  {
+    "userId": 1,
+    "id": 2,
+	"image": "newsnevents-img2.png",
+	"date": "02 Feb 2023",
+    "title": "Sample dummy text for the new title. this will be replace with the draft text",
+    "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit. qui neque nisi nulla"
+  },
+  {
+    "userId": 1,
+    "id": 3,
+	"image": "newsnevents-img3.png",
+	"date": "02 Feb 2023",
+    "title": "Sample dummy text for the new title. this will be replace with the draft text",
+    "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."
+  },
+  {
+  "userId": 1,
+  "id": 4,
+	"image": "newsnevents-img4.png",
+	"date": "02 Feb 2023",
+  "title": "Sample dummy text for the new title. this will be replace with the draft text",
+  "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."
+  },
+  {
+  "userId": 1,
+  "id": 5,
+	"image": "newsnevents-img5.png",
+	"date": "02 Feb 2023",
+  "title": "Sample dummy text for the new title. this will be replace with the draft text",
+  "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."
+  },
+  {
+  "userId": 1,
+  "id": 6,
+	"image": "newsnevents-img6.png",
+	"date": "02 Feb 2023",
+  "title": "Sample dummy text for the new title. this will be replace with the draft text",
+  "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."
+  },
+  {
+  "userId": 1,
+  "id": 7,
+	"image": "newsnevents-img2.png",
+	"date": "02 Feb 2023",
+  "title": "Sample dummy text for the new title. this will be replace with the draft text",
+  "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit. qui neque nisi nulla"
+  },
+  {
+  "userId": 1,
+  "id": 8,
+	"image": "newsnevents-img3.png",
+	"date": "02 Feb 2023",
+  "title": "Sample dummy text for the new title. this will be replace with the draft text",
+  "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."
+  },
+  {
+  "userId": 1,
+  "id": 9,
+	"image": "newsnevents-img4.png",
+	"date": "02 Feb 2023",
+  "title": "Sample dummy text for the new title. this will be replace with the draft text",
+  "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."
+  }
+]

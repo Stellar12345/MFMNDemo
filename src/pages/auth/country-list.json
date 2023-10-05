@@ -1,0 +1,63 @@
+ [
+  {
+    "name": "Singapore",
+    "code": "SG",
+    "states": [
+      {
+        "name": "Central",
+        "cities": [
+          "Ang Mo Kio",
+          "Bishan",
+          "Novena",
+          "Toa Payoh"
+        ]
+      },
+      {
+        "name": "East",
+        "cities": [
+          "Bedok",
+          "Changi",
+          "Tampines"
+        ]
+      },
+      {
+        "name": "West",
+        "cities": [
+          "Jurong",
+          "Boon Lay",
+          "Clementi"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "United States",
+    "code": "US",
+    "states": [
+      {
+        "name": "California",
+        "cities": [
+          "Los Angeles",
+          "San Francisco",
+          "San Diego"
+        ]
+      },
+      {
+        "name": "New York",
+        "cities": [
+          "New York City",
+          "Buffalo",
+          "Albany"
+        ]
+      },
+      {
+        "name": "Texas",
+        "cities": [
+          "Houston",
+          "Austin",
+          "Dallas"
+        ]
+      }
+    ]
+  }
+]

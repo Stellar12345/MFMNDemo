@@ -1,0 +1,157 @@
+.healthierfood-section{
+    background: #fff;
+  }
+    .mtb-50{margin-top: 50px;margin-bottom: 6vw;}
+    /* .logo-align{width:121px;} */
+    /*Inner Banner*/
+    .generalInnerBanner{width:100%;display: flex;height:374px;align-items: center;}
+    .generalInnerBanner h1{float:left; font-size:32px; color: #fff; position: relative;}
+    .generalInnerBanner h1:before{content:""; width: 48px;height:3px;background-color: #deb887;position: absolute;top:-10px;}
+    .helpingfarmer-banner{background-size: cover;display: flex;flex-direction: column;justify-content: center;} 
+
+    .healthier-image{position: relative;/*width: 600px;height: 370px*/} 
+    .United-Nations-section h3{font-size: 32px;margin-bottom: 52px;margin-top:50px;text-transform: capitalize; font-weight: 300;}
+    .healthier-image:before{content: "";    position: absolute;    height: 31.042vw;    width: 43vw;    border: 1px solid silver; right: 8vw;top: 3vw;  border-radius: 14px; z-index: 0;} 
+    .healthier-image img{position: relative; max-width: 100%;}
+ 
+    .healthier-content-right p{color: #666666;
+      font-size: 1rem;
+      line-height: 32px;
+      font-weight: 400;
+     }
+     .healthier-content-right p strong{color: #212121;}
+     .sub-heading{
+      color: #212121;
+      font-weight: 300;
+      font-size: 32px;
+     }
+
+    .healthierfood-section h2{font-size: 32px;margin-top: 5vw; font-weight: 300;}
+    .healthierfood-section h2 strong{font-weight: 600;}
+    .associateimg{width:100%;height:306px;border: 1px solid #ACB9C6;border-radius: 8px;display:flex;justify-content: center;align-items: center;}
+    .associateimg img{position: absolute;width: 148px;height: 170px;}
+
+    .mfmn-around-the-globe-product{
+      background-color: #fff;
+      width: 100%;
+      position: relative;
+      display: block;
+      padding: 10px 0 60px;
+    }
+
+    .mfmn-around-list{ position: relative; margin-top: 10px;}
+    .mfmn-around-items{
+       position: relative;
+       /* border:1px solid #ACB9C6; */
+       padding: 13px;
+       cursor: pointer;
+      
+    }
+    .mfmn-around-items img{
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .mfmn-around-title{
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #666666;
+      margin:13px 0 0;
+      display: block;
+      float: left;
+    }
+.green-lack-section{ margin-top: 30px;}
+
+.lack-pro-img img{ max-width: 100%;}
+    
+    @media (max-width:768px) {
+      .United-Nations-section h3{
+        font-size: 27px;
+        margin-top: 50px;
+        margin-bottom: 29px;
+      }
+      .healthier-image{position: relative;   width: 372px; }
+      .healthier-image:before{  content: "";position: absolute;height: 255px;width: 80%;border: 1px solid silver;right: 0;
+top: 4vw; border-radius: 14px;z-index: 0;left: -8vw; } 
+      .healthier-first-part{margin-top: 13vw;}
+      .healthierfood-section h2{
+        font-size: 27px;
+        font-weight: 300;
+        margin-top: 33px;
+      }
+      .healthierfood-section h2 strong{
+        font-weight: 600;
+      }
+      .associate-sec.mtb-50{ margin-top: 0;}
+      .green-lack-section .lack-pro-img{ margin-bottom: 30px;}
+      .green-lack-section .lack-pro-img img{ max-width: 100%;}
+    }
+    @media screen and (min-width:820px) and (max-width:843px){
+      .healthier-first-part {
+        margin-top: 10vw;
+      }
+      .healthier-image::before {
+        height: 54.042vw;
+        width: 52vw;
+        left: -4vw;
+        right: 0;
+      }
+    }
+    @media screen and (min-width:667px) and (max-width:670px){
+      .healthier-image::before {
+        left: -12vw;
+      }
+      .associate-sec.mtb-50{ margin-top: 0;}
+      .associateimg img{
+        width: 130px;
+        height: 142px;
+      }
+    }
+    @media screen and (min-width:1500px) {
+     .healthier-image::before {
+        height: 447px;
+      }
+      .healthier-second{
+        margin-top: 7rem;
+      }
+    }
+    @media screen and (min-width:640px) {
+      .healthier-second{margin-top: 6.292vw;}
+    }
+    
+    @media only screen and (max-width: 896px) and (orientation: landscape) {
+      .healthier-first-part{margin-top: 9vw;}
+      .healthier-image::before {
+        height:49.5vw;
+        width: 69vw;
+         left: -8vw;
+        top: 3vw;
+      }
+    }
+
+    @media only screen and (max-width: 844px) and (orientation: landscape) {
+      .healthier-image::before {
+        height: 52.5vw;
+      }
+    }
+  
+
+    @media only screen and (max-width: 736px) and (orientation: landscape) {
+      .healthier-image::before {
+        height: 32.5vw;
+        width: 69vw;
+        left: -26vw;
+      }
+      .healthier-second {
+        margin-top: 2.292vw;
+      }
+    }
+
+    @media screen and (min-width:667px) and (max-width:670px){
+      .healthier-image::before {
+        height: 37.5vw;
+    }
+    }
+
+  

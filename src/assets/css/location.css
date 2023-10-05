@@ -1,0 +1,120 @@
+body {background-color: #ffffff;}
+.MapLocation {background-color: #E6E9DE;}
+.FormyellowBtn {background-color: #F0B95E;border-radius: 10px;border: 0px;font-size: 14px;font-weight: 600;width: 98px;height: 44px;display: inline-block;margin-top: 2vw;color: var(--black);margin-bottom: 40px;}
+.Location-mfmn  {position:relative;/*max-width:100%;height:374px;*/padding:0;background-position: center;background-repeat: no-repeat;background-size: cover;display: flex;flex-direction: column;justify-content: center;}
+.Locationtext h3 {display:flex;position:relative;font-family:  'Poppins',sans-serif;font-weight: 600;font-size:32px;line-height: 50px;color:white;align-items: center;/*  margin-bottom: -40px;  */}
+.Locationtext h3:before{content:"";width: 48px;;height:3px;background-color: #F1B95E;position: absolute;top:-10px;}
+.Location-info {display:flex;}
+.Loction-info h3 {font-family:  'Poppins',sans-serif;font-weight: 300;font-size: 32px;/*padding-top: 70px;*/padding-bottom: 30px;line-height: 50px; margin-bottom:0;}
+.Loction-info h4 {font-family:  'Poppins',sans-serif;font-weight: 300;font-size: 32px;line-height: 40px;}
+.Loction-info p {font-family:  'Poppins',sans-serif;font-weight: 400;font-size:16px;padding-top:16px;padding-bottom:16px;line-height: 32px;}
+
+.MapLocation h2 {font-family:  'Poppins',sans-serif;font-weight: 400;font-size:32px;padding-bottom: 4vw;/*padding-left: 15vw;*/margin-top: 4vw;}
+.frmConnect {padding-left: 0;padding-right: 0;}
+.connect-content h4{margin-bottom: 2vw;}
+.connect-content h4,.connect-content h5 {  font-family: 'Poppins';  font-weight: 100;  font-size: 32px;  line-height: 50px;}
+.connect-content {background-color: #E7E9DE;}
+.contact-us-page .connect-form-sec {padding-top: 64px;}
+/* input form group start */
+
+.inr::placeholder{font-weight: 800;}
+/* .locations-sec .inner-page-footer {margin-top: 0;}  */
+
+@media screen and  (min-width:768px) {
+  .show-for-small-only {display: none !important;}
+  /* .MapLocation img {width:70%;height:80%;margin-left: 15vw;padding-bottom: 5vw;} */
+ 
+}
+
+@media screen and (min-width : 360px) and (max-width : 768px) {
+  .Location-mfmn {height:230px;padding:0;}
+  .LocationName {height:24vw;}
+  /* .MapLocation img {width:70%;height:80%;margin-left: 15vw;padding-bottom: 5vw;} */
+  .connect-content {background-color: #E7E9DE;margin-left:0px;padding-bottom: 30px;padding-left: 20px;padding-right: 24px;padding-top: 38px;}
+  .form .form-group .sbt-form input {margin-bottom: 40px;}
+}
+
+@media screen and (max-width : 768px) {
+  .Locationtext h3 {display:flex;font-family:'Poppins',sans-serif;font-weight: 600; font-size: 30px;color:white;  }
+  .Location-info {display:flex;flex-direction: row;justify-content:left;}
+  .Loction-info h3 {font-family:'Poppins',sans-serif;font-weight: 300;font-size:32px; /*padding-top:60px;*/padding-bottom:20px;line-height: 40px;}
+  .Loction-info p {font-family:'Poppins',sans-serif;font-weight: 400;font-size:16px;line-height: 32px;}  
+  .LocationName {position: relative;height: 20vw !important;width:100% !important;border:1px solid #B2B2B2;margin-top: 2vw;text-align: center;border-radius: 10px;   margin-bottom: 25px;margin-left: 30px;}
+  .LocationName .Location-info img {width: 32px;height: 32px;}
+  .LocationName  h4 {font-family:'Poppins',sans-serif;font-weight: 600;font-size:20px;line-height: 30px;padding-left: 10px;justify-content: center;}
+  .LocationName  p {font-family:'Poppins',sans-serif;font-weight: 400;font-size:16px;line-height: 50px;margin:0;text-align: left;}
+  .connect-content h4{margin-bottom: 2vw;}
+  .connect-content h4,.connect-content h5 {font-family: 'Poppins';font-weight: 100;font-size: 32px;line-height: 44px;margin-right: 0;}
+  .InnerFormContainer .form-control {margin-bottom: 15px;}
+  .FormyellowBtn {margin-top:8vw;}
+  .Loction-info h3{ 
+    font-size: 27px;
+    margin-top: 50px;
+    margin-bottom: 29px;
+  }
+  .Loction-info h4{
+    font-size: 27px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+  .LocationName {position: relative;height: 15vw;width: 20vw;border:1px solid #B2B2B2;margin-top: 2vw;text-align: center;border-radius: 10px;   margin-bottom: 0px;margin-left: 10px;padding-top:24px;}
+  .LocationName p {text-align:left;}
+  .show-for-small-only {display: none !important;}
+  /* .MapLocation h2 {padding-left: 3vw;} */
+  /* .MapLocation img {width:90%;height:80%;margin-left:3vw;padding-bottom: 5vw;} */
+  .connect-content h4{margin-bottom: 2vw;}
+  .connect-content h4,.connect-content h5 {margin-top: 40px;margin-left: 9px;}
+  /* .locations-sec .inner-page-footer {margin-top: 0;} */
+  .InnerFormContainer .form-control {margin-bottom: 15px;}
+  .FormyellowBtn {margin-top:4vw;}
+  .Loction-info h4{
+    font-size: 27px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width : 992px) {
+  .LocationName {height:16vw;width:22vw;}
+  .Loction-info{
+    width: 100%;
+  }
+  .locations-sec{ padding-top: 0;}
+  /* .MapLocation h2 {padding-left: 7vw;} */
+  /* .MapLocation img {width:75%;height:80%;margin-left:7vw;padding-bottom: 5vw;} */
+}
+
+@media screen and (max-width : 767px) {
+  .LocationName{ margin-left: 0;}
+}
+@media screen and (min-width : 1024px) and (max-width : 1600px) {
+  /* .MapLocation h2 {padding-left: 8vw;} */
+  .show-for-small-only {display: none !important;}
+  /* .MapLocation img {width:90%;height:80%;margin-left:8vw;padding-bottom: 5vw;} */
+  .container-fluid {margin-right: 0;}
+  .connect-content h4, .connect-content h5 {font-family: 'Poppins';font-weight: 300;font-size: 32px;line-height: 44px;margin-right: 0;}
+}
+
+.InnerFormContainer label{font-size: 14px;font-weight: 500;color: #787876;margin-bottom: 10px;}
+.InnerFormContainer .form-control{padding: 10px 20px;width: 100%;outline: none;border: 1px solid #ACB9C6;border-radius: 5px;font-size: 14px;box-shadow: none;}
+.LocationName{border: 1px solid #B2B2B2; border-radius: 10px; padding: 20px 15px; margin-bottom: 20px; }
+.LocationName h4{font-family: 'Poppins';font-weight: 600;font-size: 20px;color: #1C2630;line-height: 30px;margin-left: 10px;margin-bottom: 0; text-align: left;}
+.LocationName p{font-family: 'Poppins';font-weight: 400;font-size: 15px;line-height: 32px;margin:20px 0 0 0;    color: #1C2630;}
+
+
+@media(min-width: 844px) and (max-width:896px ) {
+  .LocationName{
+    width: 20vw;
+  }
+}
+
+@media screen and (min-width:667px) and (max-width:670px){
+  .LocationName{height: 22vw !important;}
+}
+@media screen and (max-width : 639px) {
+  .LocationName{
+    height: 30vw !important;
+  }
+
+}

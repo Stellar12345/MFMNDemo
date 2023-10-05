@@ -1,0 +1,39 @@
+.regenerativeagriculture-section {
+    background: #fff;
+  }
+  .re-generative-sec .left-title-content .restoration-text {font-size:32px;font-weight:300;color: #212529;line-height:50px;margin: 50px 0 22px;letter-spacing: 0.3px; }
+  .re-generative-sec .left-text-content{margin-bottom: 6em;}
+  .re-generative-sec .left-text-content p {font-size: 1rem;line-height: 32px;font-weight: 400;color: #666666;margin-bottom: 16px;}
+  .re-generative-sec .living-text {font-weight: 275;font-size: 40px;line-height: 60px;color: #947D65; padding-left: 7vw; }
+  .regener-desc-part{
+    display: flex;
+    align-items: center;
+  }
+.mb-regenerative-btn{ margin-bottom:63px;}
+
+  @media screen and (max-width:768px) {
+    .re-generative-sec .left-title-content .restoration-text{
+      font-size: 27px;
+      margin-top: 50px;
+      margin-bottom: 29px;
+    }
+    .re-generative-sec .living-text{
+      font-size: 27px;
+line-height: 40px;
+    }
+    .re-generative-sec .left-text-content{
+      margin-bottom: 4em;
+    }
+  }
+
+  @media screen and (max-width:767px) {
+    .re-generative-sec .left-text-content {
+      margin-bottom:2em;
+    }
+    .re-generative-sec .living-text{
+      padding-left: 0;
+      font-size: 27px;
+      line-height: 40px;
+      margin-bottom: 50px;
+    }
+  }

@@ -1,0 +1,71 @@
+.owl-carousel-wrapper{position: relative;display: block;}
+.owl-stage-outer {position: relative;overflow: hidden;}
+
+.owl-stage { background: url("../img/ourjourney/our-jouney-travel-bg.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    height: 423px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2.3rem;}
+.react-multi-carousel-track{margin-top: 12em;
+        margin-left: 15px;
+        margin-right: 15px;}
+.carousel-items{margin-right: 10vw;}
+.carousel-items .top {
+        width: 260px;
+        min-height: 100px;
+        background: #947D65;
+        border-radius: 8px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 17px;
+        padding-right: 23px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+.carousel-items .top h2 {
+        font-size: 14px !important;
+        font-weight: 600;
+        line-height: 21px !important;
+    }
+    .carousel-items .top h5 {
+        font-size: 14px !important;
+        line-height: 21px !important;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    .carousel-items .bottom {
+        background: url("../img/ourjourney/journey-year-bg.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 55px;
+        height: 81px;
+        text-align: center;
+        padding-top: 0.4rem;
+        margin-top: 1rem;
+    }
+    .carousel-items .bottom h5 {
+        font-weight: 300;
+    }
+    .carousel-items .bottom h5, .carousel-items .bottom h3 {
+        font-size: 14px !important;
+        line-height: 21px !important;
+        color: #212121;
+        margin-bottom: 0;
+    }
+    .our-journey-slide{max-width: 100%;}
+    .react-multi-carousel-track {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        will-change: transform,transition;
+        padding-top: 12vw;
+    }

@@ -1,0 +1,8 @@
+/*!
+ *   Override CSS for AdminLTE theme
+ *   Author: Johnbabu Amose
+ */
+ .sidebar .logos{width: 30%;} 
+ .na-h4 {
+	 font-size:20px;
+ }

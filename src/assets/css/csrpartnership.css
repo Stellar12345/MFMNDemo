@@ -1,0 +1,118 @@
+.generalInnerBanner{width:100%;display: flex;height:374px;align-items: center;}
+.generalInnerBanner h1{float:left;font-size:32px;color: #fff;;position: relative;}
+.generalInnerBanner h1:before{content:"";width: 48px;;height:4px;background-color: #deb887;position: absolute;top:-10px;}
+.generalInnerBanner.howwework-banner{background-size: cover;display: flex;flex-direction: column;justify-content: center;}
+
+.csrpartnership-section .text-content-left h2{font-size: 32px;font-weight: 300;margin-top:50px; margin-bottom: 29px;line-height: 50px;}
+.csrpartnership-section .text-content-left p{font-size: 16px;line-height: 32px;}
+
+.csr-partnership-sec .corporate-section h3{margin-bottom: 40px;margin-top: 50px;font-weight: 300;  font-size: 32px;  line-height: 48px;}
+.csr-partnership-sec .corporate-section h3 strong{ font-weight: 600;}
+.corporate-section.image-left {width: 604px;height: 432px;}
+/*.corporate-content-right{padding-left: 25px;}*/
+.corporate-section p{font-size: 16px;font-weight: 400;line-height: 32px;}
+
+.csrpartnership-section  h2{font-size: 32px;  line-height: 48px; font-weight: 300; /*margin-top: 50px;*/}
+.csrpartnership-section  h2 strong{ font-weight: 600;}
+.csrpartnership-section .associateimg{width:100%;height:306px;border: 1px solid #ACB9C6;border-radius: 8px;display:flex;justify-content: center;align-items: center;}
+.associateimg img{position: absolute;width: 148px;height: 170px;}
+
+.connect-content h4{margin-bottom: 2vw;}
+.connect-content h4,.connect-content h5 {  font-family: 'Poppins';  font-weight: 100;  font-size: 32px;  line-height: 50px;}
+.connect-content {background-color: #E7E9DE;}
+.contact-us-page .connect-form-sec {padding-top: 64px;}
+.InnerFormContainer label{font-size: 14px;font-weight: 500;color: #787876;margin-bottom: 10px;}
+.InnerFormContainer .form-control{padding: 10px 20px;width: 100%;outline: none;border: 1px solid #ACB9C6;border-radius: 5px;font-size: 14px;box-shadow: none;}
+.FormyellowBtn {background-color: #F0B95E;border-radius: 10px;border: 0px;font-size: 14px;font-weight: 600;width: 98px;height: 44px;display: inline-block;margin-top: 2vw;color: var(--black);margin-bottom: 40px;}
+.inr::placeholder{font-weight: 800;}
+.csrpartnership-section .image-left:before { content: ""; position: absolute; height: 418px; width: 46vw; border: 1px solid silver;  right: 5vw;  top: 3vw;  border-radius: 14px;  z-index: 0;}
+.cs-right-img{padding-top: 63px;text-align: center; display: flex;  align-items: center}
+.cs-right-img img{ max-width: 100%;}
+
+/* .csrpartnership-section .inner-page-footer{text-transform: capitalize;} */
+@media (orientation: landscape){
+  @media (max-width:768px){
+    .generalInnerBanner{width: 100%;height: 226px;text-align: center;}
+    
+  }
+  @media (max-width:992px){
+    .csrpartnership-section .generalInnerBanner{width: 100%;height: 218px !important;text-align: center;}
+  }
+  @media (max-width:1200px){
+    .csrpartnership-section .generalInnerBanner{width: 100%;height:310px}
+  }
+}
+@media (max-width:768px){
+  .csrpartnership-section h2{margin-top: 33px;}
+}
+@media (max-width:767px){
+  .cs-right-img {
+    padding-top: 20px;
+    padding-bottom: 46px;
+  }
+}
+
+
+@media screen and (max-width:542px) {
+    
+    .csrpartnership-section  h2{font-size: 25px;line-height: 40px; margin-bottom: 49px; margin-top: 0;}
+    .csrpartnership-section .corporate-section .image-left img{height: 310px;width: 362px !important;}
+    .corporate-section h3{font-size: 28px !important;}
+    .associateimg{max-width:75%;}
+    .connect-content {margin-left: 30px;}
+    .InnerFormContainer.FormyellowBtn {margin-top: 6vw !important;}
+    .FormyellowBtn {margin-top: 30px;}
+    .corporate-content-right { margin-top:40px; }
+    .csrpartnership-section .image-left::before { height: 91.467vw;  width: 72%;  left: -2.933vw; top: -4vw;}
+
+
+}
+@media  (max-width: 768px) {
+    .generalInnerBanner{width: 100%;height: 226px;align-items: center;}
+    .generalInnerBanner h1{margin-left: 28px;}
+    .csr-partnership-sec{padding-right: 20px;}
+    .howwework-section .text-content-left h2{  font-size: 27px;  margin-top: 50px; margin-bottom: 29px; }
+    .howwework-section  h2{font-size: 27px;line-height: 40px; margin-bottom: 50px; margin-top: 33px;}
+    .associateimg{margin-bottom: 25px !important;height: 270px !important;}
+    .associateimg img{width: 130px;height: 142px;}
+    .connect-content{padding-right: 25px;}
+    .connect-form-sec .connect-content h4,
+    .connect-content h5 {font-size: 25px;line-height: 40px;}
+    .InnerFormContainer .mt-5{margin-top:5vw !important;}
+    .csrpartnership-section .text-content-left h2{
+      font-size: 27px;
+      margin-top: 50px;
+      margin-bottom: 29px;
+    }
+}
+
+@media (max-width:1020px){
+  
+  .image-left img{height: 400px;width: 450px;}
+  .connect-form-sec .connect-content h4, .connect-content h5{margin-right: 0;}
+  .connect-content h5{font-size: 28px;}
+  .FormyellowBtn {margin-top: 4vw;}
+  
+}
+@media (max-width:1200px){
+  .corporate-section .image-left img{height: 400px;width: 450px;}
+}
+@media (max-width:1400px){
+  .image-left img{height: 450px;width: 550px;}
+}
+@media screen and (min-width:667px) and (max-width:670px){
+  .csrpartnership-section h2{
+    margin-top: 0;
+  }
+  .associateimg img{
+    width: 130px;
+height: 142px
+  }
+  .contactfrom{ padding: 18px 0 0;}
+  .contactfrom h3{
+    margin: 17px 0 0;
+padding: 0 !important;
+  }
+}
+
+  

@@ -1,0 +1,360 @@
+.watermanagement-section {
+    background: #fff;
+  }
+    .mtb-50{margin-top: 50px;margin-bottom: 7.9vw;}
+    @media screen and (min-width:1500px) {
+      .mtb-50{margin-top: 50px;margin-bottom: 118px;}
+    }
+    /*Inner Banner*/
+    .water-management-banner {background-position: center;background-size: cover;display: flex;flex-direction: column;justify-content: center; }
+    .water-management-banner .restoration-text {font-size: 32px;font-weight: 600;line-height: 48px;color: rgba(255, 255, 255, 1);margin: 0;}
+    .water-management-banner .restoration-text::before {content: "";background-color: #f1b95e;display: block;position: relative;width: 48px;height: 3px;margin-bottom: 0px;} 
+
+    .watermanagement-section .left-title-content .restoration-text {font-size: 32px;font-weight: 300;color: #212529;line-height: 50px;margin: 50px 0 22px;letter-spacing: 0.3px; }
+    .watermanagement-section .left-text-content p {font-size: 1rem;line-height: 32px;font-weight: 400;color: #666666;margin-bottom: 16px;}
+    .living-desc-part{ display: flex; align-items: end;}
+    .watermanagement-section .living-text {font-size: 40px; font-weight: 275; line-height: 60px; color: #947D65;  padding-left:7vw;  margin-bottom:115px;}
+    
+    .water-manage-sec{margin-bottom:6vw;margin-top: 3vw;}
+    .watermanagement-section .image-left:before{content: "";position: absolute; height: 415px; width: 43vw; border: 1px solid silver;right: 10vw;top: 4vw;border-radius: 14px;z-index: 0;}
+    .water-content-right p {font-size: 1rem;line-height: 32px;font-weight: 400;color: #666666;margin-bottom: 16px;}
+    .water-lead-sec .left-text-content {  margin-bottom:2em; }
+
+
+
+
+/*lake-info-list*/
+
+.lake-projects-content{ position: relative; margin: 0; display: block; width: 100%;}
+.lake-projects-location{ margin:10px 0 35px}
+.lake-projects-location img{ max-width: 100%; }
+.lg-react-element{ /*padding: 0;*/}
+.lake-pro-gallery{
+    position: relative;
+    display: block;
+    margin:0 0 1rem;
+}
+.pro-video-info{
+  margin:13px 0 2rem;
+  position: relative;
+  
+}
+.pro-video-info  .media-item img{
+  max-width: 100%;
+}
+.embed-responsive-item{
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.lake-info-list{
+position: relative;
+align-items: center;
+margin-bottom: 35px;
+}
+.lake-item-desc { position: relative;}
+.lake-item-data{
+width: 100%;
+display: block;
+}
+.lake-item-data p{
+font-size: 1rem;
+line-height: 32px;
+font-weight: 400;
+color: #666666;
+margin-bottom: 16px;
+}
+.lake-item-img{}
+
+.lake-item-photo img{
+max-width: 100%;
+border-radius: 8px;
+position: relative;
+cursor: pointer;
+}
+/* .lake-info-list:nth-child(even) .lake-item-img{ order: 1;}
+.lake-info-list:nth-child(even) .lake-item-desc{ order: 2;} */
+.lake-info-list:nth-child(odd) .lake-item-photo img{ float: right;}
+.lake-info-list:nth-child(even) .lake-item-photo img{ float: left;}
+
+.pro-video-title h3{
+font-size: 32px;
+font-weight: 300;
+color: #212529;
+line-height: 50px;
+margin:0px 0 22px;
+letter-spacing: 0.3px;
+}
+.pro-lake-title h3{
+  font-size: 32px;
+  font-weight:500;
+  color: #212529;
+  line-height: 50px;
+  margin:0px 0 22px;
+  letter-spacing: 0.3px;
+  }
+
+  .acc-full-width-lack .lg-react-element {
+    margin: 0 -12px;
+  }
+.acc-lack-photo-info{
+  padding: 0 12px;
+}
+
+
+/**/
+
+
+/**/
+
+/* .acc-full-width-lack{ margin: 0;} */
+.lack-acc-pro .accordion{
+  border: 0;
+}
+.lack-acc-pro .accordion-item{
+  border:0;
+  border-top: 1px solid #ccc;
+  border-radius: 0;
+}
+.lack-acc-pro .accordion-item:first-child{
+  border-bottom: 1px solid #ccc;
+}
+.acc-lack-pro-title {
+  font-size: 32px;
+  font-weight: 300;
+  color: #212529;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  font-family: "Poppins";
+  padding: 0;
+}
+.acc-lack-pro-title .accordion-button{
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  font-size: 32px;
+  font-weight: 300;
+  color: #212529;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  font-family: "Poppins";
+  padding: 10px 0;
+}
+.acc-lack-pro-title .accordion-button:focus{box-shadow: none;}
+.acc-lack-pro-title .accordion-button:not(.collapsed){
+  background-color: transparent;
+  box-shadow:none;
+  border-radius: 0; 
+}
+.lack-acc-pro .accordion-body{ 
+padding: 0;
+
+}
+
+.acc-lack-desc-box{
+  padding: 0;
+  margin-bottom: 30px;
+}
+.acc-lack-desc-box p {
+  font-size: 1rem;
+  line-height: 32px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 16px;
+}
+
+.acc-lack-pro-img { display: block; margin-bottom: 30px;}
+.acc-lack-pro-img img{ max-width: 100%; border-radius: 8px; cursor: pointer;}
+.acc-full-width-lack{ width: 100%;}
+
+.lack-acc-pro .accordion-item:last-child{
+  border-bottom: 1px solid #ccc;
+}
+.lack-acc-pro{ margin-bottom: 40px;}
+
+/**/
+
+
+/***/
+
+.lake-item-heading{
+  font-size: 32px;
+  font-weight: 300;
+  color: #212529;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  font-family: "Poppins";
+  margin:0 0 15px;
+
+}
+.lack-pro-img-left{ float:left; width: 100%; margin-bottom: 30px;}
+
+.more-map-loc{ 
+  display: block;
+  margin: 30px 0 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+
+/***/
+
+.project-title-lake  h3{
+  font-size: 32px;
+  font-weight: 500;
+color: #212529;
+line-height: 50px;
+letter-spacing: 0.3px;
+font-family: "Poppins";
+padding: 10px 0;
+}
+
+
+    
+    @media (max-width:542px) {
+        .watermanagement-section .living-text{padding-left: 5vw;}
+        .water-manage-sec .image-left img {width: 364px;height: 320px}
+        .watermanagement-section .water-manage-sec .image-left:before{ height: 360px; width: 92vw; border: 1px solid silver;right: 20vw;}
+        .water-content-right{margin-top: 22vw;}
+        .image-left{margin-top: 10px;}
+    }
+    @media (max-width:768px) {
+        .left-title-content .living-text{padding-left: 2vw;}
+        .water-manage-sec .image-left img {width: 364px;height: 320px}
+        .water-manage-sec .image-left:before{ height: 39.714vw; width: 79%;  border: 1px solid silver;  right: 0; left: -5vw;
+        }
+        .left-title-content .living-text{
+          margin-bottom:22px;
+          font-size: 27px;
+          line-height: 40px;
+        }
+        .water-content-right{padding-left:4vw !important;}
+        .watermanagement-section .left-title-content .restoration-text{
+          font-size: 27px;
+          margin-top: 50px;
+          margin-bottom: 29px;
+          }
+        .living-desc-part{align-items: center;}
+        .pro-lake-title h3{
+          font-size: 27px;
+          margin: 0 0 10px;
+        }
+        .acc-lack-pro-title{
+          font-size: 27px;
+        }
+        .acc-lack-pro-title .accordion-button{
+          font-size: 27px;
+        }
+        .lake-item-heading{
+          font-size: 27px;
+        }
+        .project-title-lake  h3{
+          font-size: 27px;
+         
+        }
+       
+
+    }
+    @media only screen and (max-width: 736px) and (orientation: landscape) {
+      .water-content-right{
+        margin-top: 8vw;
+      }
+      .water-manage-sec .image-left::before {
+        height: 42.714vw;
+        width: 89%;
+        left: -17vw;
+      }
+      
+    }
+    @media screen and (min-width:667px) and (max-width:670px){
+        .water-manage-sec .image-left::before {
+            height: 46.714vw;
+            width: 80%;
+            border: 1px solid silver;
+            right: 0;
+            left: -15vw;
+          }
+          .water-content-right{
+            padding-top: 4.498vw;
+          }
+          .water-content-right p{
+            margin-top: 15px;
+          }
+    }
+
+    @media (min-width:768px) {
+      .desktop-no-p0{ padding: 0;}
+    }
+    @media (max-width:767px) {
+      
+      /* .lake-info-list:nth-child(even) .lake-item-img{ order:inherit;}
+      .lake-info-list:nth-child(even) .lake-item-desc{ order:inherit;} */
+        .lake-info-list:nth-child(odd) .lake-item-photo img{ float: left;}
+        .lake-info-list .lake-item-desc{ order:1;}
+        .lake-info-list .lake-item-img{  order:2;}
+        /* .lake-info-list{
+          margin-bottom: 30px;
+        } */
+        .lake-info-list .lake-item-img img{  /*margin-bottom: 26px;*/ }
+        .acc-lack-pro-img{
+          float: left;
+          width: 100%;
+          padding: 0 12px;
+        }
+        /* .media-item-videos{ margin-bottom: 35px;} */
+        .media-item-videos:last-child{ margin-bottom: 0;}
+        /* .lake-info-list:last-child{ margin-bottom: 0;} */
+        .acc-full-width-lack .lg-react-element{
+          margin: 0 0;
+        }
+        /* .lake-info-list{
+          padding-right: 0;
+        }
+        .lake-item-img{
+          padding-right: 0;
+        } */
+        .accordion-body .acc-lack-photo-info{
+          padding: 0;
+        }
+
+        /***/
+
+        .acc-full-width-lack{
+          width: 100%;
+          padding: 0;
+          margin: 0;
+        }
+        /* .lack-vidoe-part-info{
+          padding: 0;
+        } */
+        .lack-part-info{
+          padding: 0;
+        }
+        .lack-pro-img{
+          margin: 0 0 30px;
+          float: left;
+        }
+        .embed-responsive-item{
+          /* margin-top: 30px; */
+        }
+        .water-manage-sec{
+          margin-bottom: 0;
+        }
+        .lake-info-list{
+          margin-bottom: 0;
+        }
+        .more-map-loc{
+          margin-top: 0;
+          margin-bottom: 30px;
+        }
+        .tree-plan-tab-view{ padding: 0;}
+        .tab-video-pading{ padding: 0 12px;}
+      
+  }
+  @media (max-width:575px) {
+    .acc-lack-pro-img{
+      padding: 0;
+    }
+  }
+    

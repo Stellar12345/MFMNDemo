@@ -1,0 +1,74 @@
+#nanban-volleyball{font-size: 28px;font-weight: 300;}
+.single-post{ display: block; background-color: #fff; width: 100%; padding-top: 50px;}
+.single-post-inner{  margin: 0 0 65px; padding: 0;}
+.single-post-inner h2{  color: #212121;font-weight: 300; font-size: 32px;line-height: 50px; margin:0 0 29px;}
+.single-post-inner p{ font-weight: 400; font-size: 16px;  line-height: 32px;color: #666666; margin:0 0 15px;}
+
+.right-sidebar{ background-color: #E6E9DD; border-radius: 8px; padding: 23px; position: relative;}
+.widget-area{ position: relative;}
+.widget-meta{ position: relative; width: 100%; border-bottom: 1px solid #d5dbd6; padding-bottom: 25px; display: flex; flex-direction: row; justify-content: space-between;}
+.widget-meta img{ max-width: 100%; }
+.widget-meta span{color: #212121; font-weight: 400; display: flex;    align-items: center;}
+.widget-meta span.posted-auther{ clear: both; display: block; margin-top: 20px;}
+.widget-media-info{ display: block; position: relative; padding: 0 8px;width: 100%; margin-top:23px;}
+.widget-media-info p{ color: #666666; font-weight: 400;  font-size: 16px;   line-height: 32px; margin: 0 0 26px;}
+.btn-join-us{
+    background: #F1B95E;
+    border-radius: 8px;
+    color: #212121;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    width: 146px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;    
+}
+.btn-join-us:hover{background: #DE9D33; color: #212121;}
+.blog-widget{ flex-direction: column;}
+.widget-media-info span{ display: inline-block;}
+.posted-share-info{ font-weight: 400;  font-size: 16px;  line-height: 32px; color: #000000;} 
+.posted-share-info img{padding-right: 15px;}
+.posted-share-info:hover{ color: #000000;}
+.scoial-share-list{ margin-left: 5px;}
+.scoial-share-list img{ max-width: 100%; margin:0 5px; }
+.blog-commet-title strong{ font-weight:600;}
+.article-media-img{ display: block; margin:40px 0; width: 100%; text-align: center;}
+.article-media-img img{max-height: 256px;}
+
+@media screen and (min-width:640px) {
+    .widget-meta img{padding-right:1.04vw; width: 2.9vw;}
+    .widget-meta span{ font-size:13px; line-height: 2.22vw; padding: 0 0.56vw;}
+}
+@media screen and (min-width:1500px) {
+    .widget-meta img{padding-right:15px; width: auto;}
+    .widget-meta span{ font-size: 16px; line-height: 32px; padding: 0 8px;}
+}
+@media screen and (min-width:820px) and (max-width:896px){
+    .widget-meta img{padding-right:1.04vw; width: 2.9vw;}
+    .widget-meta span{ font-size:1.4vw; line-height: 2.22vw; padding: 0 0.56vw; }
+    .widget-meta{ padding-bottom: 16px;}
+    .right-sidebar{padding: 10px;}
+    
+}
+@media screen and (max-width:768px) {
+    .single-post-inner h2{font-size: 27px; line-height: 50px;}
+   
+}
+@media screen and (max-width:639px) { 
+    .widget-meta img{padding-right:15px; width: auto;}
+    .widget-meta span{ font-size: 15px; line-height: 32px; padding: 0 8px;}
+    #nanban-volleyball{
+        display: block;
+        font-size: 27px;
+        line-height: 30px;
+
+    }
+    .right-sidebar{
+        margin-bottom: 65px;
+    }
+}
+

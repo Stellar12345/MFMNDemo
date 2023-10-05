@@ -1,0 +1,83 @@
+[
+  {
+    "id":"1",
+    "title": "Problems Faced by Indian Farmers",
+    "year": "02 Feb 2023",
+    "slug":"problems-faced-by-indian-farmers",
+    "genre": ["Wind]"],
+    "postedby": "Jaison",    
+    "imageurl": "blog1.png",
+    "description":["India is an agricultural powerhouse. It is the 2nd highest food-producing country in the world and a leader in self-reliance through a food import rate of less than 5%. Despite the agricultural prestige, Indian farmers and the 830 million people who live in agricultural regions are suffering. Approximately 30 Indian farmers die by suicide every day. Examination into what could be causing farmers to make this decision uncovered multifaceted inequities.","Farmers in India are largely financially underwater. 50% of Indian farmers are in-debt and in states such as Telangana and Andhra, this number increases to 90%. Due to lack of financial resources and uncontrollable weather that impacts crop yield, many Indian farmers are struggling to feed their families and earn a livable wage.","In addition to inhospitable economic conditions, farming communities are also faced with heightened risk for cancer and other health problems. When pesticides are used to support crop growth, residue can be absorbed into the produce and can be introduced into local water bodies through agricultural run-off. The exposure to pesticides poses a threat to community health and  can be especially dangerous for children and elders who have a compromised immune system.","Nearly 75% of full-time farm workers in India are women. This number has grown significantly as economic conditions have required many men to travel to cities to earn additional income which leaves their female counterpart to manage the farm. Because the majority of women do not own the farms they are working on, they are seen by the government as unpaid labor and are largely blocked from receiving government protections and support. For this already marginalized group, the issues of government recognition pose significant harm to safety and livelihood.","While India’s climate is a haven for growth, excessive pesticide use has been degrading land quality and disrupting the delicate ecosystem balance. When pesticide residue is introduced into water sources it can transition a body of water teeming with life and diversity to one inhospitable to life and riddled with contaminants. In addition to the impact on water quality, the heavy use of pesticides also degrades soil health which negatively impacts crop yields and productivity."]
+  },  
+  {
+    "id":"2",
+    "title": "How Natural Farming Practices Support Water and Soil Health",
+    "year": "02 Feb 2023",
+    "slug": "how-natural-farming-practices-support",
+    "genre": ["Solar"],
+    "postedby": "Jaison",    
+    "imageurl": "blog2.png",  
+    "description": ["Water is the thread that connects environmental and human health. Soil is the foundation that builds and sustains. Current farming practices are disrupting water and soil systems and causing disbalance. To protect human and environmental health, reformation of the farming system is critical.", "The planet operates in natural cycles that work In balance with surrounding ecosystems to support and propel life. Restoring balance in farming means that several changes need to be made to the current system. The cumulation of all these changes is referred to as Regenerative Agriculture. Information on Regenerative Agriculture and how it supports water and soil health is included below.", "Current farming methods are water intensive and cause contamination in the form of agricultural run-off. Current practices also threaten soil health through tilling, which is the disruption of the land in preparation for seed growth. Tilling threatens soil health because it damages root systems which provide support to the soil and enable the passage of nutrients.","Regenerative Agriculture addresses the problems with current farming systems and teaches new way to do things. Regenerative Agriculture supports water availability by reducing the amount of water needed to support crop growth. This is done by using irrigation systems to limit the amount of water applied to crops and through ‘cover cropping’ which reduces the amount of water loss from exposed soil.","Regenerative Agriculture supports soil health by reducing the amount of chemical inputs needed to support plant growth. This is done by using locally available waste to generate compost which can be used as a source of fertilizer. In addition to eliminating the cost to farmers to buy fertilizer, this method also reduces the amount of chemical inputs needed to sustain crop growth.","When implemented effectively, Regenerative Agriculture practices can increase agricultural yields, reduce farming costs, and increase nutritional value."]
+  },
+  {
+    "id":"3",
+    "title": "Sample dummy text for the new title. this will be replace with the draft text",
+    "year": "02 Feb 2022",
+    "slug": "sample-dummy3",
+    "genre": ["Carbon"],
+    "postedby": "Jaison",    
+    "description": ["Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."],
+    "imageurl": "blog3.png"  
+  },
+  {
+    "id":"4",
+    "title": "Sample dummy text for the new title. this will be replace with the draft text",
+    "year": "02 Feb 2021",
+    "slug": "sample-dummy4",
+    "genre": ["Wind"],
+    "postedby": "Jaison",    
+    "description": ["Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."],
+    "imageurl": "blog4.png"  
+  },
+  {
+    "id":"5",
+    "title": "Sample dummy text for the new title. this will be replace with the draft text",
+    "year": "02 Feb 2020",
+    "slug": "sample-dummy5",
+    "genre": ["Solar"],
+    "postedby": "Jaison",    
+    "description": ["Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."],
+    "imageurl": "blog5.png"  
+  },
+  {
+    "id":"6",
+    "title": "Sample dummy text for the new title.",
+    "year": "02 Feb 2019",
+    "slug": "sample-dummy4",
+    "genre":["Carbon"],
+    "postedby": "Jaison1",    
+    "description": ["Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."],
+    "imageurl": "blog6.png"  
+  },
+  {
+    "id":"6",
+    "title": "Sample dummy text for the new title. Wind",
+    "year": "02 Feb 2018",
+    "slug": "sample-dummy4",
+    "genre": ["Wind"],
+    "postedby": "Jaison13",    
+    "description": ["Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."],
+    "imageurl": "blog5.png"  
+  },
+  {
+    "id":"7",
+    "title": "will be replace with the draft text",
+    "year": "03 Feb 2017",
+    "slug": "sample-dummy7",
+    "genre": ["Carbon"],
+    "postedby": "Jaison",    
+    "description": ["Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.velit officia consequat duis enim velit molit."],
+    "imageurl": "blog2.png"  
+  }
+  
+]

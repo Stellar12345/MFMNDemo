@@ -1,0 +1,322 @@
+.ourjourney-section {  background: #fff; }
+  .left-title-content .restoration-text {font-size: 32px;font-weight: 300;color: #212529;line-height: 50px;margin:50px 0 22px;letter-spacing: 0.3px; }
+  .left-text-content{margin-bottom:2em;}
+  .left-text-content p {font-size: 1rem;line-height: 32px;font-weight: 400;color: #666666;}
+  .owl-carousel-wrapper{position: relative;display: block;}
+  .owl-stage-outer {position: relative;overflow: hidden;}
+
+/* .owl-stage { background: url("../img/ourjourney/our-jouney-travel-bg.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    height: 423px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2.3rem;}  */
+.react-multi-carousel-track{
+        margin-top: 12em;
+        margin-left: 15px;
+        margin-right: 15px;}
+.carousel-items{margin-right: 10vw;}
+.carousel-items .top {
+        width: 260px;
+        min-height: 100px;
+        background: #947D65;
+        border-radius: 8px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 17px;
+        padding-right: 23px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+.carousel-items .top h2 {
+        font-size: 14px !important;
+        font-weight: 600;
+        line-height: 21px !important;
+        margin-top: 10px;
+    }
+    .carousel-items .top h5 {
+        font-size: 14px !important;
+        line-height: 21px !important;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    .carousel-items .bottom {
+        background: url("../img/ourjourney/journey-year-bg.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 55px;
+        height: 81px;
+        text-align: center;
+        padding-top: 0.4rem;
+        margin-top: 1rem;
+    }
+    .carousel-items .bottom h5 {
+        font-weight: 300;
+    }
+    .carousel-items .bottom h5, .carousel-items .bottom h3 {
+        font-size: 14px !important;
+        line-height: 21px !important;
+        color: #212121;
+        margin-bottom: 0;
+    }
+    .our-journey-slide{max-width: 100%;}
+    .our-journey-info{  clear: both; margin:70px 0 0; display:block;}
+    .react-multi-carousel-track {
+        list-style: none;
+        padding: 0; 
+        margin: 0; 
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        will-change: transform,transition;
+        padding-top: 12em !important; 
+        /* background: url("../img/ourjourney/our-jouney-travel-bg.png");
+        background-position: center;
+        background-repeat: repeat-x; */
+        height: 423px;
+        display: flex;
+        align-items: flex-end;
+         padding-bottom: 2.3rem !important; 
+         /* animation: marquee 50s infinite linear; */
+    }
+
+    .react-multi-carousel-list.carousel-container {
+      background: url("../img/ourjourney/our-jouney-travel-bg.png");
+      background-position: center;
+      background-repeat: repeat-x;
+      animation: marquee 50s infinite linear;
+    }
+
+.right-prakriti-info{
+  margin: 0px 0;
+  display: block;
+  position: relative;
+}
+.right-prakriti-info img{
+  max-width: 100%;
+  margin:0 0 0;
+  border-radius: 8px;
+  float: right;
+  text-align: right;
+}
+
+
+/**/
+.right-prakriti-outline{
+  /* margin: 120px 0 0; */
+  float: right;
+  display: block;
+}
+.right-prakriti-outline .right-part-inner-image::after {
+ /* top: 580px;
+  right: -174px; */
+}
+
+/**/
+
+
+    @keyframes marquee {
+      0% {
+        background-position: 0;
+      }
+    
+      100% {
+        background-position: -1190px;
+      }
+    }
+    @keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-1px); }
+        100% { transform: translateY(0); }
+      }
+
+     .our-journey-relative-point{
+        position: relative;
+        overflow: hidden;
+        padding: 0;
+     } 
+      .tractor-section{
+        position: absolute;
+        bottom: 0;
+        left: auto;
+        right: auto;
+        top: auto;
+        width: 100%;
+    }
+    .tractor-section img {
+      animation: bounce 0.3s infinite;
+      /* position: absolute;
+      bottom: 19px; */
+      z-index: 1;
+      /* left: 53%; */
+      /* top: 78.5em; */
+    }
+    .react-multi-carousel-item .slideimage{
+      padding: 0 30px;
+    }
+    @media screen and (max-width:542px) {
+        .slideimage .owl-item .tractor-section img {
+            animation: bounce 0.3s infinite;
+            position: absolute;
+            bottom: 19px;
+            z-index: 1;
+           
+          }
+          .left-text-content{ margin-bottom: 0;} 
+          
+    }
+    @media (max-width:768px) {
+        .tractor-section img {
+            animation: bounce 0.3s infinite;
+            /* position: absolute;
+            bottom: 19px; */
+            z-index: 1;         
+          }.left-text-content
+          .tractor-section img{
+            width: 100px;
+          }
+          .carousel-items{ 
+            margin: 0 2.23vw;
+          }
+          .our-journey-relative-point{ padding: 0;}
+          .left-title-content .restoration-text{
+            font-size: 27px;
+            margin-top: 50px;
+            margin-bottom: 29px;
+          }
+          .tractor-section img{width: 16%;}
+
+          .right-prakriti-info{
+            float: left;
+            text-align: left;
+          }
+         
+
+    }
+    @media(min-width: 768px) and (max-width: 1024px) {
+        .tractor-section img{
+            width: 100px;
+          }
+          .carousel-items{ 
+            margin: 0 6.23vw;
+          }
+          .our-journey-relative-point{ padding: 0;}
+          .right-prakriti-info{
+            float: left;
+            text-align: left;
+          }
+         
+    }
+    @media screen and (min-width:667px) and (max-width:670px){
+      .tractor-section img{width: 12%;}
+    }
+    @media (max-width:639px) {
+      .tractor-section img {
+        width:20%;
+      }
+    }
+
+
+    @media screen and (min-width:768px) {
+      .right-prakriti-info img{
+        margin: 7vw 0 0;
+      }
+
+      /***/
+      .right-prakriti-outline{
+        margin: 8.5vw 0 0;
+      
+      }
+      .right-prakriti-outline .right-part-inner-image::after {
+       top: 39.5vw;
+      right: -174px;
+      }
+      /***/
+
+
+    }
+    @media screen and (min-width:1500px) {
+      .right-prakriti-info img{
+        margin: 113px 0 0;
+      }
+
+      /***/
+
+      .right-prakriti-outline{
+        margin: 120px 0 0;
+      
+      }
+      .right-prakriti-outline .right-part-inner-image::after {
+       top: 580px;
+      right: -174px;
+      }
+      /***/
+
+    }
+
+    /* @media screen and (min-width:820px) and (max-width:843px){
+      .right-prakriti-info img {
+        margin: 3vw 0 0;
+      }
+    } */
+   
+
+
+    @media(min-width: 768px) and (max-width: 1024px) {
+
+       /**/
+       .right-prakriti-outline .right-part-inner-image::after {
+        top: 44.5vw;
+      }
+      /**/
+
+    }
+
+
+    @media screen and (min-width:912px) and (max-width:940px){
+      .right-prakriti-outline{
+        float: left;
+       }
+       .right-prakriti-outline .right-part-inner-image::after {
+        top: -3.5vw;
+      }
+    }
+
+    @media screen and (min-width:844px) and (max-width:896px){
+      .right-prakriti-outline{
+        float: left;
+       }
+       .right-prakriti-outline .right-part-inner-image::after {
+        top: -3.5vw;
+      }
+    }
+
+    @media screen and (min-width:768px) and (max-width:843px){
+      .right-prakriti-info img {
+        margin: 2vw 0 0;
+      }
+       /**/
+       .right-prakriti-outline{
+        float: left;
+       }
+       .right-prakriti-outline .right-part-inner-image::after {
+        top: -3.5vw;
+      }
+      /**/
+    }
+
+    @media (max-width:767px) {
+      .right-prakriti-info img{
+        margin: 7vw 0 0;
+      }
+    }
+    @media screen and (min-width:667px) and (max-width:670px){
+      .right-prakriti-info img {
+        margin: 2vw 0 0;
+      }
+    }
